@@ -19,8 +19,7 @@ function handValue(hand) {
       total += 10;
       console.log("hand[i]",hand[i]);
       console.log("total",total);
-
-    } else {
+    } else if(hand[i] !== "A"){
       total += +hand[i];
       console.log("hand[i]",hand[i]);
       console.log("total",total);
